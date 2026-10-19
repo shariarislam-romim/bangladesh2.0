@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+.container{
+    max-width: 1350px;
+    margin: auto;
+}
+.m-btn{
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-weight: 600;
+    border: 1px solid #006a50;
+    color: #006a50;
+    background-color: white;
+}
+.m-btn2{
+    background-color: #006a50;
+    color: white;
+    padding: 12px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+}
+header{
+    margin: 20px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    align-items: center;
+    padding: 60px;
+    margin: 15px auto;
+}
+.hero h2{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hero p{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.hero img{
+    height: 400px;
+    width: 470px;
+}
+.pillar h2 , .vision-main h2{
+    font-size: 40;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding-top: 10px;
+    
+}
+.item{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 26px ;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.item h4{
+    font-size: 18px;
+    padding: 12px 0;
+}
+.item p , .vision p{
+    font-size: 15px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-main{
+    padding: 20px;
+}
+
+.item button{
+    margin-top: 20px;
+}
+.no1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border: none;
+}
+.no1 button{
+    background-color: rgba(84, 144, 245, 1);
+    border: none;
+}
+.no2{
+    background-color: rgba(198, 228, 214, 1);
+    border: none;
+}
+.no2 button{
+    background-color: rgba(9, 161, 92, 1);
+    border: none;
+}
+.no3{
+    background-color: rgba(247, 235, 207, 1);
+    border: none;
+}
+.no3 button{
+    background-color: rgba(255, 194, 57, 1);
+    border: none;
+}
+.quote{
+    margin: 32px auto;
+}
+.quote .item{
+    padding: 40px 26px;
+    position: relative;
+}
+.quote img{
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    height: 64px;
+    width: 64px;
+}
+
